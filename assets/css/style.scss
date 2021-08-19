@@ -138,16 +138,14 @@ header
 .nav-link
 {
   color: #ffffff;
-  opacity: 60%;
-  transition: opacity .35s;
+  transition: color .35s;
   font-family: $headers-font;
 }
 
 .nav-link.active, .nav-link:hover
 {
   color: #ffffff;
-  opacity: 87%;
-  transition: opacity .35s;
+  transition: color .35s;
   font-weight: 400;
 }
 
@@ -175,8 +173,7 @@ header
   padding: 0;
   font-size: var(--font-size--larger);
   font-weight: bold;
-  opacity: 60%;
-  transition: opacity .35s;
+  transition: color .35s;
 }
 
 .navbar-brand.active, .navbar-brand:hover

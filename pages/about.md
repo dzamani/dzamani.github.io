@@ -9,7 +9,7 @@ weight: 3
 <br />
 Curious and passionate game programmer, I studied in France :fr: and am now living in Montreal :canada: as a **Software Developer at Unity Technologies**. <br /><br />
 
-If I had to describe what I strive to achieve when I work is **100% efficiency**.
+If I had to describe what I strive to achieve, when I work, it would be **100% efficiency**.
 
 What I mean is that I want to reduce as much as possible things that could slow down my team and I. In order to get the best results we should have the best environment and the fewest interferences possible to be able to fully focus on our task at hand. I go more in-depth into that mindset in this blogpost: [[100% efficiency]](/blog/efficiency).
 

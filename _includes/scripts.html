@@ -11,12 +11,26 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
 
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 <!-- Initialize all tooltips -->
 <script>
+
+var $grid = $('.grid').imagesLoaded( function() {
+  // init Masonry after all images have loaded
+  $grid.masonry({
+    // options...
+    itemSelector: ".grid-item",
+    columnWidth: ".grid-sizer",
+    gutter: ".gutter-sizer",
+    percentPosition: true
+  });
+});
+
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
 </script>
 
