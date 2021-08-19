@@ -1,0 +1,25 @@
+<div class="grid m-3 mt-5" data-masonry='
+  { 
+    "itemSelector": ".grid-item",
+    "columnWidth": ".grid-sizer",
+    "gutter": ".gutter-sizer",
+    "percentPosition": true
+  }'>
+  <div class="grid-sizer"></div>
+  <div class="gutter-sizer"></div>
+  <!-- Local Projects -->
+  {% for project in site.projects reversed %}
+
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = project.name | slugify -%}
+    {%- assign project_img   = project.image -%}
+    {%- assign project_name  = project.name -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tools = project.tools -%}
+    {%- assign project_url = project.url | relative_url -%}
+    {%- assign external_url = project.external_url -%}
+    
+    {% include projects/project-card.html %}
+
+  {% endfor %}
+</div>

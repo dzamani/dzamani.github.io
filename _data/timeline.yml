@@ -1,0 +1,36 @@
+- title: Software Developer, Unity Technologies, Montreal
+  from: 2021
+  to: present
+  description: |
+              TBD
+
+- title: Game Developer, iLLOGIKA, Montreal
+  from: 2017
+  to: 2021
+  description: |
+              Working at iLLOGIKA gives the opportunity to participate in several projects of all kinds which also means that I've gathered multiple fields of expertise.
+              From the vast number of projects, here is a non-exhaustive list of my responsibilities:
+              - Designing and implementing the base structure of the project based on factors like timeline, team size, and client needs.
+              - Solving performance issues related to graphics, gameplay features, build times, or loading times.
+              - Improve developing processes and workflows by building/using tools and implementing an easy to use continuous integration tech stack.
+              - Prototyping games in a fast iterations context with direct communication with artists, designers, and producers.
+              - R&D on upcoming technology or common use cases that would be beneficial for the team. 
+
+- title: Game Developer, C4M, Montreal
+  from: 2016
+  to: 2017
+  description: |
+              As the sole programmer and with an already existing project, I managed to ramp up while also develop new features for Battleplans.
+              Among the responsibilities I had, we can find:
+              - Improving and fixing the skills and powers of existing heroes
+              - Updating features related to quests, raids, and PVP
+              - Designing and implementing a new Hero
+              - Adding some quality of life changes
+              - Improving UI/UX
+
+- title: iOS Developer, Guarana Technologies, Montreal
+  from: 2016
+  to: 2016
+  description: |              
+            From UI Integration to shipping to the App Store including UX integration and MBaaS management everything was part of my work as I developed iOS applications at Guarana Technologies.
+            Primary tools: Parse, Backendless, Git, Pods.

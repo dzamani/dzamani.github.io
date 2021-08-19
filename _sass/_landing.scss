@@ -1,0 +1,31 @@
+.center-card
+{
+  border-color: $primary;
+  border-style: dashed;
+  border-radius: 1rem;
+  
+  p
+  {
+    font-size: var(--font-size--medium);
+  }
+}
+
+.landing-container
+{
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#element
+{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.circle-image
+{
+  width: 85%;
+}

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="col-lg-12 mx-auto mt-5 project-page">
+  <figure class="col-lg-12 mx-auto">
+    {% include elements/placeholder-video.html id=page.main_video %}
+    <!--<figcaption>
+      <a href="{{ page.external_url }}">Link to the game <i class="fas fa-external-link-alt"></i></a>
+    </figcaption>
+    -->
+  </figure>
+  <div class="project-tldr">
+    <p>
+      <i class="fas fa-quote-left" aria-hidden="true"></i>
+      {{ page.description }}
+      <i class="fas fa-quote-right" aria-hidden="true"></i>
+    </p>
+  </div>
+  <div class="col-lg-12 project-content">
+    <div class="col-lg-11 mx-auto">
+      <h1>About the game</h1>
+      {{ page.overview | markdownify }}
+      <h1> My contributions</h1>
+      {{ content  }}
+      <h1> Accomplishments</h1>
+      {{ page.results | markdownify }}
+      {%- if page.special_thanks -%}
+      <div class="project-special-thanks">
+        <h1> Special Thanks </h1>
+        <ul>
+          {%- for person in page.special_thanks -%}
+          <li>
+            <i class="fas fa-splotch"></i>
+            <a href="{{ person.url }}" target="_blank">{{ person.name }}</a>
+            <i class="fas fa-splotch"></i>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
