@@ -5,7 +5,7 @@
     {%- else -%}
       {%- assign active_status = "" -%}
     {%- endif -%}
-    <a class="navbar-brand nav-item nav-link {{ active_status }}" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="navbar-brand nav-item {{ active_status }}" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

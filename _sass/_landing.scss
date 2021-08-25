@@ -25,7 +25,18 @@
   right: 0;
 }
 
+#container
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
 .circle-image
 {
   width: 85%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
