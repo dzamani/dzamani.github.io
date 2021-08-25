@@ -1,10 +1,8 @@
 <div class="grid m-3 mt-5">
   <div class="grid-sizer"></div>
   <div class="gutter-sizer"></div>
-  <!-- Local Projects -->
   {% for project in site.projects reversed %}
 
-    {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
     {%- assign project_img   = project.image -%}
     {%- assign project_name  = project.name -%}

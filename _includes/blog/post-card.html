@@ -1,0 +1,18 @@
+<div class="grid-item animate__animated animate__fadeInUp animate__delay-0_5s">
+  <a href="{{ post_url }}" class="post card">
+    {%- if post_img != blank -%}
+    <img id="{{ post_id }}-img" class="card-img-top" src="{{ post_img }}" alt="{{ post_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+      <h1 id="{{ post_id }}-name" class="card-title">
+        {{ post_name }}
+      </h1>
+      <p id="{{ post_id }}-desc" class="card-text">{{ post_desc }}</p>
+      <p id="{{ post_id }}-tools" class="card-badges">
+        {%- for tool in post_tools -%}
+        <span class="badge rounded-pill">{{ tool }}</span>
+        {%- endfor -%}
+      </p>
+    </div>
+  </a>
+</div>

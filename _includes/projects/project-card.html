@@ -1,6 +1,6 @@
 <div class="grid-item animate__animated animate__fadeInUp animate__delay-0_5s">
   <a href="{{ project_url }}" class="project card">
-    {%- if project_img -%}
+    {%- if project_img != blank -%}
     <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
     {%- endif -%}
     <div class="card-body">

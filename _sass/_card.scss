@@ -1,0 +1,42 @@
+.card
+{
+  border-color: rgba($primary-variant, .38);
+  border-width: 2px;
+  background-clip: padding-box;
+  overflow:hidden;
+  background-color: rgba(white, .05);
+}
+
+.card-title
+{
+  color: $primary;
+  opacity: 87%;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.card-text
+{
+  font-size: 0.75em;
+}
+
+.card-body
+{
+  text-align: center;
+}
+
+.project.card .card-img-top
+{
+  border-radius: unset;
+}
+
+.badge
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba($variant1, .6);
+  color: $variant1;
+  margin: 0 0.25rem;
+  font-weight: bold;
+  font-size: 0.55em;
+}
