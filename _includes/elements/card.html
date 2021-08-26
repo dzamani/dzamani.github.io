@@ -1,0 +1,18 @@
+<div class="grid-item animate__animated animate__fadeInUp animate__delay-0_5s">
+  <a {% if is_draft==false %} href="{{ element_url }}" {% endif %} class="card">
+    {%- if element_img != blank -%}
+    <img id="{{ element_id }}-img" class="card-img-top" src="{{ element_img }}" alt="{{ element_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+      <h1 id="{{ element_id }}-name" class="card-title">
+        {{ element_name }}
+      </h1>
+      <p id="{{ element_id }}-desc" class="card-text">{{ element_desc }}</p>
+      <p id="{{ element_id }}-tools" class="card-badges">
+        {%- for tool in tools -%}
+        <span class="badge rounded-pill">{{ tool }}</span>
+        {%- endfor -%}
+      </p>
+    </div>
+  </a>
+</div>

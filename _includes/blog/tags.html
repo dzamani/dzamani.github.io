@@ -15,11 +15,7 @@
   <ol>
   {% for post in site.posts %}
     {%- if post.tags contains tag -%}
-      {%- if post.external_url -%}
-        {%- assign url = post.external_url -%}
-      {%- else -%}
-        {%- assign url = post.url | relative_url -%}
-      {%- endif -%}
+      {%- assign url = post.url | relative_url -%}
     <a href="{{ url }}"><li>{{ post.title }}</li></a>
     <small class="text-muted"> - {{ post.date | date_to_long_string }}</small>
     <br/>

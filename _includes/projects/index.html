@@ -1,18 +1,17 @@
 <div class="grid m-3 mt-5">
   <div class="grid-sizer"></div>
   <div class="gutter-sizer"></div>
-  {% for project in site.projects reversed %}
+  {% for element in site.projects reversed %}
 
-    {%- assign project_id    = project.name | slugify -%}
-    {%- assign project_img   = project.image -%}
-    {%- assign project_name  = project.name -%}
-    {%- assign project_desc  = project.description -%}
-    {%- assign project_tools = project.tools -%}
-    {%- assign is_draft = project.draft -%}
-    {%- assign project_url = project.url | relative_url -%}
-    {%- assign external_url = project.external_url -%}
+    {%- assign element_id    = element.name | slugify -%}
+    {%- assign element_img   = element.image -%}
+    {%- assign element_name  = element.name -%}
+    {%- assign element_desc  = element.description -%}
+    {%- assign element_tools = element.tools -%}
+    {%- assign is_draft = element.draft -%}
+    {%- assign element_url = element.url | relative_url -%}
     
-    {% include projects/project-card.html %}
+    {% include elements/card.html %}
 
   {% endfor %}
 </div>
