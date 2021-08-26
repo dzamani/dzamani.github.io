@@ -82,13 +82,14 @@ defaults:
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   - 
     scope:
-      path: "posts"
       type: "posts"
     values:
+      layout: "project"
       comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
+  - lastCheck
   - README.md
   - CONTRIBUTING.md
   - LICENSE

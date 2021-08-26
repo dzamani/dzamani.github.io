@@ -68,6 +68,11 @@
       {
         opacity: 87%;
       }
+
+      &::after
+      {
+        width: 0;
+      }
     }
   }
 }
@@ -76,7 +81,7 @@
 {
   width: 110%;
   margin-left: -5%;
-  background-color: rgba($primary, 0.9);
+  background-color: rgba($primary-variant, 0.8);
   align-items: center;
   text-align: center;
   justify-content: center;

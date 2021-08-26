@@ -3,23 +3,12 @@ layout: default
 permalink: /
 myself:
     left: |
-        **Pro & Personal**
-
-        Post-mortems of my experiences.
-
-        [**--> Projects <--**](../projects/)
+        **Professional & Personal projects post-mortem style**
     middle: |
-        # David Zamani Kord
-          
-        ### Game Developer & Software Engineer
-        
-        [**--> About <--**](../about/)
+        <strong id="first-name" class="d-flex justify-content-center"> David Zamani Kord </strong>
+        <strong id="job-title" class="d-flex justify-content-center"> Game Developer & Software Engineer </strong>
     right: |
-        **Devlogs & tech posts**
-        
-        A deep dive in my thought process.
-
-        [**--> Blog <--**](../blog/)
+        **Tech posts, rants and thought process as a Developer**
 ---
 
 {% include landing.html %}

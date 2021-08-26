@@ -1,12 +1,28 @@
 .center-card
 {
-  border-color: $primary;
-  border-style: dashed;
-  border-radius: 1rem;
-  
+  transition: opacity 500ms;
+
   p
   {
     font-size: var(--font-size--medium);
+  }
+
+  & > div
+  {
+    border-color: $primary;
+    border-style: dashed;
+    border-radius: 1rem;
+    transition: border-color 400ms;
+
+    &:hover
+    {
+      border-color: rgba($primary, 0.6);
+    }
+  }
+
+  &:hover
+  {
+    opacity: .5;
   }
 }
 
@@ -39,4 +55,16 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+}
+
+#first-name, #job-title
+{
+  font-family: $headers-font;
+  font-size: var(--font-size--large);
+  margin: 1.5rem 0;
+}
+
+#job-title
+{
+  font-size: var(--font-size--medium);
 }

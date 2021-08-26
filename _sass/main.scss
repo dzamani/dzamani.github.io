@@ -2,12 +2,15 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
+        "utility",
         "404",
-        "blog",
+        "navbar",
         "footer",
         "landing",
-        "navbar",
+        "card",
         "projects",
+        "blog",
+        "about",
         "timeline",
         "autumn";
           

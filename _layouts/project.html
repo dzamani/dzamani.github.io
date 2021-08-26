@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="col-lg-12 mx-auto mt-5 project-page">
-  <figure class="col-lg-12 mx-auto">
+  {%- if page.main_video != blank -%}
+  <figure class="col-lg-12 mx-auto" aria-label="video-trailer">
     {% include elements/placeholder-video.html id=page.main_video %}
   </figure>
+  {%- endif -%}
   <div class="project-tldr">
     <p>
       <i class="fas fa-quote-left" aria-hidden="true"></i>
@@ -21,7 +23,7 @@ layout: default
       {{ content  }}
       <h1> Accomplishments</h1>
       {{ page.results | markdownify }}
-      {%- if page.special_thanks -%}
+      {%- if page.special_thanks != blank -%}
       <div class="project-special-thanks">
         <h1> Special Thanks </h1>
         <ul>

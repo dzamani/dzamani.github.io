@@ -8,6 +8,7 @@
     {%- assign post_name  = post.name -%}
     {%- assign post_desc  = post.description -%}
     {%- assign post_tools = post.tools -%}
+    {%- assign is_draft = !post.draft -%}
     {%- assign post_url = post.url | relative_url -%}
     
     {% include blog/post-card.html %}

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
 weight: 3
+permalink: /about/
 ---
 
 <h1 id="about-title">Hi! I'm {{ site.author.name }}</h1>
