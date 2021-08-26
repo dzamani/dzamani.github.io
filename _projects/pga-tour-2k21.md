@@ -1,7 +1,7 @@
 ---
 name: PGA TOUR 2K21
 draft: true
-release_date: 21-08-2020
+date: 21-08-2020
 tools: [Unity, Switch, Optimizations]
 image: /assets/img/thumb_pga2k21.jpg
 description: TBD

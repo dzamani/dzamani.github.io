@@ -1,6 +1,6 @@
 ---
 name: Sky Whale
-release_date: 01-03-2018
+date: 01-03-2018
 tools: [Unity, Mobile, ARKit, ARCore]
 image: /assets/img/thumb_skywhale.jpg
 description: Made an AR mode for the children's game Sky Whale

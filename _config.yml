@@ -52,7 +52,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-    sort_by: release_date
 
 ### Disqus ###
 disqus:
