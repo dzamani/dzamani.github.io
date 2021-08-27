@@ -1,15 +1,14 @@
 ### Site Settings ###
 title               : Home
 description         : >-
-                    Problem-solving guy who cares about efficiency during game development.
+                    Software developer at @unity3d. Problem-solving guy caring about QoL and workflow improvements.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : dzamani/dzamani.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-remote-theme
-
+  - jekyll-sitemap
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -17,6 +16,8 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/index.md
 
+sass:
+    style: compressed
 
 ### Author Info ###
 author:
