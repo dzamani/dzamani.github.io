@@ -8,8 +8,7 @@
     <div class=" text-center mt-4 animate__animated animate__fadeInUp">
       <div id="container" class="my-2">
         <div id="element">
-          <img src="{{ site.author.image }}" alt="{{ site.title }}" 
-            class="circle-image animate__animated animate__zoomIn animate__delay-0_5s">
+          {% picture default {{ site.author.image }} --alt {{ site.title }} --img class="circle-image animate__animated animate__zoomIn animate__delay-0_5s" %}
         </div>
       </div>
       <p class="animate__animated animate__fadeIn animate__delay-0_5s animate__slower">{{ page.myself.middle | markdownify }}</p>

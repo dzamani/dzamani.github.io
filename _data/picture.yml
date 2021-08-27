@@ -1,0 +1,10 @@
+# _data/picture.yml
+
+presets:
+  default:
+    formats: [webp]
+    dimension_attributes: true
+    fallback_format: webp
+    format_quality:
+      webp: 100
+
