@@ -43,5 +43,12 @@
         color: rgba($color: white, $alpha: .6);
       }
     }
+
+    &:first-of-type .content
+    {
+      border-top: 1px dashed #343a40;
+      padding-top: 20px;
+      margin-top: 10px;
+    }
   }
 }
