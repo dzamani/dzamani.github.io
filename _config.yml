@@ -66,6 +66,16 @@ analytics:
     tracking_id: your-google-tracking-id
 
 
+### Algolia ###
+algolia:
+  application_id: 4M25S7ROPY
+  index_name:     portfolio-posts # You can replace that with whatever name you want
+  extensions_to_index:
+    - md
+  files_to_exclude:
+    - _projects/*
+    - pages/*
+
 ### Defaults for collections ###
 defaults:
   - 
