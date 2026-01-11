@@ -1,0 +1,28 @@
+/* Google Fonts - Self-Hosted for Performance */
+
+/* Alegreya */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('alegreya-regular.woff2') format('woff2');
+}
+
+/* Caveat */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('caveat-regular.woff2') format('woff2');
+}
+
+/* Kaushan Script */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('kaushan-script-regular.woff2') format('woff2');
+}

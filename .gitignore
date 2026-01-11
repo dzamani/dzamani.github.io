@@ -12,3 +12,5 @@ Gemfile.lock
 *.log
 
 _algolia_api_key
+
+.DS_Store
